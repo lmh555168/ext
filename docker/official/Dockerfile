@@ -1,4 +1,4 @@
-FROM ubuntu:latest as builder
+FROM aarch64/ubuntu:latest as builder
 
 RUN apt-get update
 RUN apt-get install curl -y
